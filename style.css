@@ -33,6 +33,12 @@ button{
     cursor: pointer;
     transition: .3s;
 }
+button.second{
+    background-color: #fa0c0c;
+}
 button:hover{
     background-color: #4c00ff;
+}
+button.second:hover{
+    background-color: #fc0000;
 }
