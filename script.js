@@ -6,3 +6,6 @@ button.addEventListener("click",()=>{
 buttonSecond.addEventListener("click",()=>{
     alert("Coupan Code ")
 })
+function toggleDarkMode() {
+  document.body.classList.toggle("dark");
+}
